@@ -10,3 +10,21 @@ variable "tenant_id" {
 variable "subscription_id" {
     default ="f5f8e3e5-3282-4032-a77f-70a7326de9e6"
 }
+variable "location" {
+    default = "Korea Central"
+}
+variable "location2" {
+    default = "Central India"
+}
+variable "prefix" {
+  default = "RG-Juniper"
+}
+variable "vnetprefix" {
+  default = "vnet"
+}
+variable "subnetprefix" {
+  default = "subnet"
+}
+variable "vmprefix" {
+  default = "vm"
+}
